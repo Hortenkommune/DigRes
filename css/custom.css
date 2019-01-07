@@ -48,24 +48,24 @@
     opacity: .8;
     font-weight: 300;
   }
-  
-  /* Help
+   
+  /* grid-section-1
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .get-help {
-    background-color: #0494d2;
-  }
-  
-  /* Categories
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .categories {
+  .grid-section-1 {
     background-color: #24699a;/* url('../images/values-bg.jpg');*/
     background-size: cover;
     color: #fff;
   }
-  .categories .section-description { 
+  .grid-section-1 .section-description { 
     margin-bottom: 4rem;
   }
-  
+
+    /* grid-section-2
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .grid-section-2 {
+    background-color: #0494d2;
+  }
+
   /* Bigger than 550 */
   @media (min-width: 550px) {
     .section {
@@ -124,7 +124,7 @@
       top: -12rem;
       max-height: 472px;
     }
-    .categories {
+    .grid-section-1 {
       padding: 2rem 0 1rem;
     }
   }
