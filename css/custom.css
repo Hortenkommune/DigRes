@@ -14,41 +14,7 @@
   .section-description {
     margin-bottom: 1.2rem;
   }
-  
-  /* Hero
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .phones {
-    position: relative;
-  }
-  .phone {
-    position: relative;
-    max-width: 80%;
-    margin: 3rem auto -12rem;
-  }
-  .phone + .phone {
-    display: none;
-  }
-  
-  /* Values
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .values {
-    background-image: url('../images/values-bg.jpg');
-    background-size: cover;
-    color: #FFF;
-    padding-bottom: 5rem;
-  }
-  .value-multiplier {
-    margin-bottom: .5rem;
-    color: #11DFC7;
-  }
-  .value-heading {
-    margin-bottom: .3rem;
-  }
-  .value-description {
-    opacity: .8;
-    font-weight: 300;
-  }
-   
+     
   /* grid-section-1
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .grid-section-1 {
