@@ -1,0 +1,120 @@
+/* General */
+
+body {
+    background-color: #336699;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    letter-spacing: normal;
+  }
+
+#logo {
+    max-width: 450px;
+    height: auto;
+}
+
+a:focus {
+    outline: 3px solid #FFCC00; 
+}
+
+
+
+/* Back-to-top nav */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: #336699;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.back-to-top:hover {
+    background-color: #555;
+}
+
+/* Buttons */
+.link-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    color: #336699;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.top-button {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.link-button:hover {
+    background-color: #eee;
+}
+.link-button:focus {
+    outline: 3px solid #FFCC00; 
+}
+
+
+/* Grid and tiles */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tile {
+    background-color: rgba(255, 255, 255, 0.1);  /* 10% white */
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.tile:hover {
+    background-color: rgba(255, 255, 255, 0.2);  /* 20% white */
+    transform: scale(1.05);
+}
+
+.tile img {
+    width: 100%;
+    height: auto;
+}
+
+.tile a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+}
+
+/* testing for header tiles */
+.header-tile {
+    background-color: #336699;
+    color: white;
+    text-align: center;
+    grid-column: 1 / -1; 
+    border-radius: 5px;
+}

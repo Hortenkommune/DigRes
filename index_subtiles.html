@@ -10,14 +10,20 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
 </head>
 
-<body>
+<body id="top">
     <header>
         <img src="images/logo.png" alt="Horten kommune logo" id="logo">
         <h1>Nettressurser i hortenskolen</h1>
-        <!--<p>Hei! Her finner du massevis av lærerike og morsomme nettressurser som vi bruker i skolen. Klikk på bildene nedenfor å begynne!</p>>-->
+        <p>Hei! Her finner du massevis av lærerike og morsomme nettressurser som vi bruker i skolen. Klikk på bildene nedenfor å begynne!</p>
+        <a href="#barneskole"><span class="link-button top-button">Barneskole</span></a>
+        <a href="#Ungdomsskole"><span class="link-button top-button">Ungdomsskole</span></a>
+        <a href="#Alle"><span class="link-button top-button">Alle</span></a>
     </header>
 
-    <div class="grid" id="top">
+    <div class="grid">
+        <div class="header-tile" id="barneskole">
+            <div class="class-range"><h2>Barneskole</h2></div>
+        </div>
         <div class="tile">
             <a
                 href="https://idp.feide.no/simplesaml/module.php/feide/login.php?asLen=215&AuthState=_1659ddb7c5a173920fd6f07e4b0e7d38e4a6e457d0%3Ahttps%3A%2F%2Fidp.feide.no%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fapp.askiraski.no%252FAuthServices%26cookieTime%3D1546888794%26RelayState%3DMp8nA-nsag3OfjmJ2vWukkDE">
@@ -25,7 +31,7 @@
                 <span class="link-button">Askiraski</span>
             </a>
         </div>
-        <div class="tile">
+        <div class="tile" id="15">
             <a href="https://brettboka.no/login">
                 <img src="images/services/brettbok.png" alt="Brettboka">
                 <span class="link-button">Brettboka</span>
@@ -37,7 +43,6 @@
                 <span class="link-button">Clarify</span>
             </a>
         </div>
-
         <div class="tile">
             <a
                 href="https://idp.feide.no/simplesaml/module.php/feide/login.php?asLen=179&AuthState=_44c127f83b86399b8ac1d8ed4d69aaa07f6a6af63d%3Ahttps%3A%2F%2Fidp.feide.no%2Fsimplesaml%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Durn%253Amace%253Afeide.no%253Aservices%253Acom.creaza%26cookieTime%3D1457601580.com">
@@ -59,7 +64,9 @@
                 <span class="link-button">Kikora</span>
             </a>
         </div>
-
+        <div class="header-tile" id="Ungdomsskole">
+            <div class="class-range"><h2>Ungdomsskole</h2></div>
+        </div>
         <div class="tile">
             <a href="https://www.korarti.no/simplesaml/module.php/core/as_login.php?AuthId=default-sp&ReturnTo=%2F">
                 <img src="images/services/korarti.png" alt="Korarti">
@@ -149,7 +156,9 @@
                 <span class="link-button">Sykkeldyktig</span>
             </a>
         </div>
-
+        <div class="header-tile" id="Alle">
+            <div class="class-range"><h2>Alle</h2></div>
+        </div>
         <div class="tile">
             <a href="https://hortenkommune365.sharepoint.com/sites/Media/GrafiskProfil/Forms/AllItems.aspx">
                 <img src="images/services/hk-logo.png" alt="Horten kommune - Grafisk profil">
@@ -166,5 +175,5 @@
 
     </div>
     <br><br>
-    <!--<a href="#top" class="back-to-top">Tilbake til toppen</a>-->
+    <a href="#top" class="back-to-top">Tilbake til toppen</a>
 </body>
