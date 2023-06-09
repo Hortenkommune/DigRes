@@ -12,7 +12,7 @@ header {
     text-align: center;
     padding: 20px;
 }
-.logo {
+#logo {
     max-width: 100%;
     height: auto;
 }
